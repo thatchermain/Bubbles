@@ -5,7 +5,6 @@ container.addEventListener('mousemove', (e) => {
     let y = e.offsetY;
 
         const span = document.createElement('span');
-        span.classList.add('span');
         span.style.top = y + 'px';
         span.style.left = x + 'px';
         span.style.borderRadius = (Math.random() * 10) * 5 + '%'
